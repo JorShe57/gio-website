@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Gallery - Magistro Concrete & Restoration</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Magistro Concrete</a>
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <span class="accent nav-phone"><a href="tel:2169908480">(216)-990-8480</a></span>
+    </div>
+  </nav>
+
+  <main class="gallery-page">
+    <div class="container">
+      <h1>Project Gallery</h1>
+      <div class="gallery-filters">
+        <button class="gallery-filter active" data-filter="all">All</button>
+        <button class="gallery-filter" data-filter="driveways">Driveways</button>
+        <button class="gallery-filter" data-filter="patios">Patios</button>
+        <button class="gallery-filter" data-filter="foundations">Foundations</button>
+        <button class="gallery-filter" data-filter="decorative">Decorative</button>
+      </div>
+      <div class="gallery-carousel">
+        <button class="carousel-btn carousel-btn-left" aria-label="Previous image">&#8592;</button>
+        <div class="carousel-image-wrapper">
+          <img class="carousel-image" src="images/IMG_2300.JPG" alt="Driveway Project" />
+          <div class="carousel-description">Driveway Project</div>
+        </div>
+        <button class="carousel-btn carousel-btn-right" aria-label="Next image">&#8594;</button>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item" data-category="driveways">
+          <img src="images/IMG_2300.JPG" alt="Driveway Project" />
+        </div>
+        <div class="gallery-item" data-category="patios">
+          <img src="images/IMG_2298.JPG" alt="Patio Project" />
+        </div>
+        <div class="gallery-item" data-category="foundations">
+          <img src="images/IMG_2301.JPG" alt="Foundation Project" />
+        </div>
+        <div class="gallery-item" data-category="decorative">
+          <img src="images/IMG_2299.JPG" alt="Decorative Project" />
+        </div>
+        <div class="gallery-item" data-category="driveways">
+          <img src="images/IMG_2305.JPG" alt="Driveway Project 2" />
+        </div>
+        <div class="gallery-item" data-category="patios">
+          <img src="images/IMG_2304.JPG" alt="Patio Project 2" />
+        </div>
+        <div class="gallery-item" data-category="foundations">
+          <img src="images/IMG_2307.JPG" alt="Foundation Project 2" />
+        </div>
+        <div class="gallery-item" data-category="decorative">
+          <img src="images/IMG_2309.JPG" alt="Decorative Project 2" />
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Business Hours</h3>
+        <p>Mon–Fri: 7am – 6pm<br>Sat: 8am – 2pm<br>Sun: Closed</p>
+      </div>
+      <div class="footer-info">
+        <h3>Location</h3>
+        <p>123 Main Street<br>Your City, ST 12345</p>
+      </div>
+      <div class="footer-info">
+        <h3>Contact</h3>
+        <p>Phone: <a href="tel:2169908480">(216)-990-8480</a><br>Email: <a href="mailto:info@magistroconcrete.com">info@magistroconcrete.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2024 Magistro Concrete & Restoration. All rights reserved.</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html> 
